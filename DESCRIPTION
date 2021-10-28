@@ -1,0 +1,23 @@
+Package: searchar
+Type: Package
+Title: Search for autoregrassive coefficient and set seeds
+Version: 0.1.0
+Authors@R: c(
+  person("Ayinde", "Kayode", email = "kayinde@futa.edu.ng", role = c("cre","aut")),
+  person("Daniel", "James", email = "futathesis@gmail.com", role = "aut"))
+Maintainer: Daniel James <futathesis@gmail.com>
+Description: Search for rigth seeds for autoregrassive coefficient and set seed that produces such with arima.sim and auto.arima functions.
+Depends:
+  R (>= 4.1.0)
+Imports:
+  forecast,
+  foreach,
+  doParallel,
+  parallel,
+  future,
+  tibble,
+  stats,
+  simEd
+License: GPL (>= 2)
+Encoding: UTF-8
+RoxygenNote: 7.1.2
