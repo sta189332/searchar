@@ -2,9 +2,26 @@
 % Please edit documentation in R/hm.R
 \name{arsearch}
 \alias{arsearch}
-\title{Search for rigth seeds for the rigth AR simulation with arima.sin finction using auto.arima function}
+\title{Search for rigth seeds for the rigth AR simulation with arima.sin() finction using auto.arima() function}
 \usage{
-arsearch(a, z, n, ar11, ar22, ar33, p, d, q, sd, j1, j2, j3, arr1, arr2, arr3)
+arsearch(
+  a,
+  z,
+  n,
+  ar11,
+  ar22,
+  ar33,
+  p,
+  d,
+  q,
+  sd = 1,
+  j1,
+  j2,
+  j3,
+  arr1,
+  arr2,
+  arr3
+)
 }
 \arguments{
 \item{a}{first seed boundary}
@@ -44,6 +61,6 @@ More detailed Description
 }
 \section{Functions}{
 \itemize{
-\item \code{arsearch}: searchar helps to Search for rigth seeds for the rigth AR simulation with arima.sin function using auto.arima function
+\item \code{arsearch}: ARSearch helps to Search for rigth seeds for the rigth AR simulation with arima.sin() finction using auto.arima() function
 }}
 
